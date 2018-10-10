@@ -2,7 +2,7 @@
 
 ## Введение
 
-! [пример JS race gif] (readme-assets/JS-racer-example.gif)
+![пример JS race gif](readme-assets/JS-racer-example.gif)
 *Рисунок 1*. Игра *JS Racer*.
 
 
