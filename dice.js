@@ -1,5 +1,0 @@
-module.exports = {
-  roll:function rollDice() {
-    return Math.floor(Math.random() * 6) + 1
-  }
-}
