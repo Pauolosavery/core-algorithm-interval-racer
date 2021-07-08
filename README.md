@@ -1,27 +1,27 @@
 ## JS Racer
 
-Врум врум! Давай поиграем! Напиши простую игру под названием JS Racer. Правила просты: брось кубик и двигайся вперед. Нет никакой стратегии или принятия решений, просто надейся на удачу и [Math.random()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random)!
+Vroom vroom! Let's play! Write a simple game called JS Racer. The rules are simple: roll the dice and move forward. There is no strategy or decision making, just hope for luck and [Math.random()] (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random)!
 
-Игра - это гонка между двумя игроками. Оба игрока начинают игру в начале трека, бок о бок. Игроки по очереди бросают кубик и продвигаются по дорожке **на одну позицию**, в зависимости от чисел на кубике, и делают это до тех пор, пока один из них не достигнет конца трека и не выиграет поединок.
+A game is a race between two players. Both players start at the beginning of the track, side by side. The players take turns rolling the dice and advance along the track **by one step**, depending on the numbers on the dice, and do this until one of them reaches the end of the track and wins the duel.
 
-Однако, в процессе создания нашей игры, могут возникнуть некоторые трудности: 
-1. Управление состоянием игры (например, отслеживание позиций игроков)
-2. Преобразование данных из одной структуры в другую (например, преобразование игровых данных в напечатанную доску).
+However, in the process of creating our game, some difficulties may arise:
+1. Management of the state of the game (for example, tracking players' positions)
+2. Converting data from one structure to another (for example, converting game data to a printed board).
 
-Ниже приведена версия консольной игры. Если у тебя есть желание - можешь сделать ее с веб-интерфейсом, чтобы играть в браузере.
+Below is the console game version. If you want, you can make it with a web interface to play in a browser.
 
 ![](readme-assets/JSracer.gif)
 
-### Release 0. Сделать минималистичную версию игры
+### Release 0. Create a minimalistic version of the game 
 
-Тебе необходимо создать рабочую версию *JS Racer*. Что это значит? Она должна запускаться, в ней должны каким-то образом передвигаться 2 машинки. Когда одна из них достигает финиша - об этом сообщается пользователю, а затем игра заканчивается.
-На самом деле задание не такое простое как кажется! Рекомендуем очень внимательно изучить функции `setTimeout()` и `setInterval()`. Эти 2 функции работают достаточно интересно. Тут ты плавно начнешь свое знакомство с понятием `Асинхронность`.
+You need to create a working version of *JS Racer*. What does it mean? It begins, and 2 cars should somehow move in the game. When one of them reaches the finish line, the user is informed about this, and then the game ends.
+In fact, the task is not as simple as it seems! We recommend that you study the `setTimeout ()` and `setInterval ()` functions very carefully. These 2 functions work quite interestingly. Here you will smoothly begin your acquaintance with the concept of `Asynchrony`.
 
-### Release 1. Нужно больше функций *(необязательно)*
+### Release 1. More features needed *(optional)*
 
-Что бы сделало эту игру более увлекательной? Теперь, когда базовая версия игры работает, давай посмотрим, не можем ли мы ее немного улучшить? Ниже приведены некоторые предложения по улучшению, но ты можешь добавлять и свои собственные функции.
+What would make this game more fun? Now that the basic version of the game is working, let's see if we can improve it a bit? Below are some suggestions for improvement, but you can add your own features as well.
 
-- Зачем ограничивать игру двумя игроками, всегда называемыми `a` и `b`? Позволь любому количеству игроков зарегистрироваться на гонку и выбрать свои собственные символы для имен.
-- Вместо использования однобуквенных символов для каждого игрока, ты можешь использовать искусство [ASCII](https://sites.google.com/site/asciisandbox/art/vehicles), [конвертацию слов](https://github.com/miketierney/artii)).
-- Ты можешь сделать игру более похожей на «Chutes and Ladders» («Горки и лестницы»), предоставляя игрокам неожиданные бонусы в виде ускорения машины, случайного включения заднего хода, аварий, заставляющих пропускать ходы.
-- Можно уменьшить долю случайности в игре, давая игрокам больше контроля над тем, как они перемещаются по всем направлениям.
+- Why limit the game to two players, always called `a` and` b`? Allow any number of players to take part in the race and choose their own name symbols.
+- Instead of using one letter characters for each player, you can use [ASCII] art (https://sites.google.com/site/asciisandbox/art/vehicles), [word conversion] (https://github.com/miketierney / artii)).
+- You can make the game more like "Chutes and Ladders", providing players with unexpected bonuses in the form of acceleration of the car, accidental reversing, accidents that force you to skip turns.
+- You can reduce the amount of randomness in the game, giving players more control over how they move in all directions.
